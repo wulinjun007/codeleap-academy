@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>咨询报名 · 免费 1 对 1 课程咨询与试听 | 码跃学院 CodeLeap</title>
+<meta name="description" content="预约码跃学院免费 1 对 1 课程咨询：领取试听课程、所在城市开班价目表与课程大纲，顾问 24 小时内回访。">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%230677f9'/><text x='16' y='22' font-size='17' font-weight='bold' fill='white' text-anchor='middle' font-family='sans-serif'>码</text></svg>">
+</head>
+<body>
+
+<div class="pillnav-wrap">
+  <nav class="pillnav" aria-label="主导航">
+    <a class="brand" href="index.html"><span class="brand-mark">码</span>码跃学院</a>
+    <div class="nav-items">
+      <a href="index.html">首页</a>
+      <a href="courses.html">课程中心</a>
+      <a href="teachers.html">师资团队</a>
+      <a href="campuses.html">全国校区</a>
+      <a href="news.html">新闻动态</a>
+    </div>
+    <span class="hotline">咨询热线<strong>400-000-0000</strong></span>
+    <a class="btn-cta btn-sm nav-cta" href="consult.html">免费试听</a>
+    <button class="nav-burger" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    <div class="nav-drawer">
+      <a href="index.html">首页</a>
+      <a href="courses.html">课程中心</a>
+      <a href="teachers.html">师资团队</a>
+      <a href="campuses.html">全国校区</a>
+      <a href="news.html">新闻动态</a>
+      <a href="consult.html">咨询报名</a>
+    </div>
+  </nav>
+</div>
+
+<header class="page-hero">
+  <div class="container ph-inner">
+    <div class="crumb"><a href="index.html">首页</a><span class="sep">/</span>咨询报名</div>
+    <h1>免费 1 对 1 课程咨询</h1>
+    <p>领取试听课程、所在城市开班价目表与完整课程大纲，顾问 24 小时内回访。</p>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container consult-layout" style="max-width:1020px">
+    <div class="consult-side">
+      <h2>咨询前，先想清楚三件事</h2>
+      <p>顾问会按你的基础、时间与目标城市给出课程路径建议；所有资料免费领取，不收取任何咨询费用。</p>
+      <ul class="c-points">
+        <li><i>✓</i>1 对 1 基础测评：判断零基础 / 转行 / 在职进阶的最优路径</li>
+        <li><i>✓</i>所在城市最新开班安排与余位情况</li>
+        <li><i>✓</i>完整课程大纲 + 试听课程 + 学费价目表</li>
+      </ul>
+      <p class="caption mt-24" style="color:var(--ink-40)">咨询热线：400-000-0000（演示号码）<br>服务时间：每日 9:00 - 21:00</p>
+    </div>
+
+    <div class="consult-card">
+      <form id="consult-form" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="f-name">你的称呼 <span>*</span></label>
+            <input id="f-name" type="text" placeholder="怎么称呼你" autocomplete="name">
+          </div>
+          <div class="form-field">
+            <label for="f-phone">手机号码 <span>*</span></label>
+            <input id="f-phone" type="tel" placeholder="用于接收课程资料" autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="f-course">意向课程</label>
+          <select id="f-course">
+            <option>Java 全链路开发</option>
+            <option>AI 大模型全栈</option>
+            <option>网络安全</option>
+            <option>Web 全栈开发</option>
+            <option>云计算全栈（Linux）</option>
+            <option>数据分析与商业智能</option>
+            <option>软件测试</option>
+            <option>UID 全链路设计</option>
+            <option>还没想好，请顾问推荐</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="f-city">所在城市</label>
+            <select id="f-city">
+              <option>北京</option><option>上海</option><option>广州</option><option>深圳</option>
+              <option>杭州</option><option>成都</option><option>重庆</option><option>武汉</option>
+              <option>南京</option><option>西安</option><option>其他城市</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="f-base">当前基础</label>
+            <select id="f-base">
+              <option>零基础转行</option>
+              <option>相关专业在读/毕业</option>
+              <option>在职提升</option>
+              <option>自由职业/接单</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn-cta form-submit" type="submit">领取试听与课程资料</button>
+        <p class="form-privacy">演示声明：本站为设计演示站点，提交的信息不会被发送或存储。</p>
+        <div class="form-result" id="form-result" role="status"></div>
+      </form>
+    </div>
+  </div>
+</main>
+
+<section class="section" style="padding-top:0">
+  <div class="container" style="max-width:920px">
+    <div class="faq-list">
+      <details class="faq-item"><summary>提交后多久会有顾问联系我？</summary><p class="faq-body">真实场景下工作时段 2 小时内响应，最晚不超过 24 小时；本演示站不会真实提交信息。</p></details>
+      <details class="faq-item"><summary>可以只领资料不做咨询吗？</summary><p class="faq-body">可以。备注「仅领资料」即可，顾问只发送课程大纲与价目表，不做电话回访。</p></details>
+      <details class="faq-item"><summary>试听课是正式讲师吗？</summary><p class="faq-body">是。试听安排进正式班级跟班听课，与正式学员同课堂、同进度。</p></details>
+    </div>
+  </div>
+</main>
+
+<section class="closing">
+  <div class="closing-inner">
+    <h2 class="h-section">也可以直接打电话聊</h2>
+    <p>400-000-0000（演示号码）· 每日 9:00 - 21:00</p>
+    <a class="btn-cta" href="index.html">先去看看课程</a>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-legal container">
+      <span>本站为设计演示站点，表单不产生真实提交</span>
+      <span>© 2026 CodeLeap Academy（演示）</span>
+      <a href="#">备案号占位：X ICP备 00000000 号</a>
+    </div>
+  </footer>
+</section>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
